@@ -60,10 +60,10 @@ public class Main {
         // Registrar el numero de cuentas que el usuario ingreso
         for (int i = 0; i < cuentas.length; i++) {
 
-            System.out.println("\nDigite los datos para la cuenta " + (i + 1) + " : ");
-            System.out.println("\nDigite el numero de cuenta ");
+            System.out.println("\nDigite los datos para la cuenta  " + (i + 1) + " : ");
+            System.out.printf("Ingrese el numero de la cuenta ");
             numeroCuenta = en.nextInt();
-            System.out.println("Digite el saldo de la cuenta");
+            System.out.printf("Ingrese el saldo de la cuenta");
             saldo = en.nextDouble();
             // Cuenta con el iterador i es igual a una nueva cuenta y le pasamos el numero de la cuenta y el saldo
             cuentas[i] = new Cuenta(numeroCuenta, saldo);
